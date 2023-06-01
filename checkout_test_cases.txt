@@ -1,0 +1,46 @@
+Test Case 2: Successful Checkout
+1. Navigate to the product page.
+2. Add the desired product to the cart.
+3. Click on the cart icon to proceed to the checkout page.
+4. Verify that the correct product is displayed in the cart.
+5. Click on Place Order.
+6. Enter valid shipping address details.
+7. Click on Purchase button.
+8. Verify that the order confirmation alert is displayed.
+9. Verify that the order details are correct.
+
+
+Test Case 2: Empty Cart
+1. Navigate to the product page.
+2. Verify that the cart is empty.
+3. Attempt to proceed to the checkout page.
+4. Verify that an appropriate error message is displayed.
+
+
+Test Case 3: Invalid Shipping Address
+1. Navigate to the product page.
+2. Add the desired product to the cart.
+3. Click on the cart icon to proceed to the checkout page.
+4. Enter invalid or incomplete shipping address details.
+5. Click on the "Place Order" button.
+6. Verify that an appropriate error message is displayed.
+
+
+Test Case 4: Cancel Checkout
+1. Navigate to the product page.
+2. Add the desired product to the cart.
+3. Click on the cart icon to proceed to the checkout page.
+4. Enter valid shipping address details.
+8. Click on the "Cancel" button.
+9. Verify that the user is redirected back to the cart page.
+
+Test Case 5: Checkout with Multiple Products
+1. Navigate to the product page.
+2. Add multiple products to the cart.
+3. Click on the cart icon to proceed to the checkout page.
+4. Verify that all selected products are displayed correctly in the cart.
+5. Click on Place Order.
+6. Enter valid shipping address details.
+7. Click on the "Place Order" button.
+8. Verify that the order confirmation page is displayed.
+9. Verify that the order details include all the selected products.
